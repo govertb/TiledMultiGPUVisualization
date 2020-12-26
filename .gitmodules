@@ -1,0 +1,12 @@
+[submodule "netvis/lib/glm"]
+	path = netvis/lib/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "netvis/lib/pngwriter"]
+	path = netvis/lib/pngwriter
+	url = https://github.com/pngwriter/pngwriter.git
+[submodule "netvis/lib/colormap"]
+	path = netvis/lib/colormap
+	url = https://github.com/kbinani/glsl-colormap.git
+[submodule "mandelbrot/lib/colormap"]
+	path = mandelbrot/lib/colormap
+	url = https://github.com/kbinani/glsl-colormap.git
