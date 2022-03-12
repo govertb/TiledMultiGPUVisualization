@@ -3,8 +3,11 @@
 This repository contains experimental code for the interactive visualisation of GPGPU computed data (in particular network layouts) using tiled display systems. Obtaining the frame rates that are required for interactive use at the high resolutions of tiled display systems is a primary goal of this project. To this end it supports visualizing the GPGPU computed data 'in situ', by sharing the (physical) memory allocated for compute and render tasks on each GPU. This project was developed at the [Leiden Institute of Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl) using _BigEye_, a 12-display tiled-display system equipped with three NVIDIA GPUs. 
 See [porting to other systems](#porting) for additional information about using the framework on other (Linux based) tiled display systems that have NVIDIA GPUs.
 
-Detailed information on the design and methodology of the system will be made available in:
-* G.G. Brinkmann, [K.F.D. Rietveld](https://liacs.leidenuniv.nl/~rietveldkfd), [F.J. Verbeek](https://www.universiteitleiden.nl/en/staffmembers/fons-verbeek) and [F.W. Takes](https://liacs.leidenuniv.nl/~takesfw), Real-Time Interactive Visualization of Large Networks on a Tiled Display System (under review).
+Detailed information on the design and methodology of the system is available in:
+* G.G. Brinkmann, [K.F.D. Rietveld](https://liacs.leidenuniv.nl/~rietveldkfd), [F.J. Verbeek](https://www.universiteitleiden.nl/en/staffmembers/fons-verbeek) and [F.W. Takes](https://liacs.leidenuniv.nl/~takesfw), [Real-time interactive visualization of large networks on a tiled display system](https://doi.org/10.1016/j.displa.2022.102164), _Displays_, vol. 73, 2022. 
+
+#### Citing
+To cite this software, please use the aforementioned reference, or the `preferred-citation` section in [CITATION.cff](./CITATION.cff). The latter can be converted to the desired format using [various tools](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench), or using _Cite this repository_ in the _About_ section of [this project's GitHub page](https://github.com/govertb/TiledMultiGPUVisualization).
 
 _BigEye_, the tiled-display system used for our experiments 
 
